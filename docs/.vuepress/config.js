@@ -3,15 +3,15 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 // 配置参考:https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
-
+// 图标通过 https://www.logosc.cn/favicon-generator 生成
 export default defineUserConfig({
   lang: 'zh-CN',
 
-  title: '宇正群邮',
-  description: '一个开源强大的邮件批量发送系统',
+  title: '逛逛开源界',
+  description: '逛逛开源界，发现更多效率的宝藏软件',
 
   theme: defaultTheme({
-    logo: '/images/logo.svg',
+    logo: '/images/logo.png',
     search: true,
     searchMaxSuggestions: 10,
     navbar: [
@@ -20,38 +20,20 @@ export default defineUserConfig({
         link: '/'
       },
       {
-        text: '文档',
-        link: '/get-started',
-        children: [
-          {
-            text: '开始使用',
-            link: '/get-started'
-          },
-          {
-            text: '视频介绍',
-            link: '/video-introduction'
-          },
-          {
-            text: '致谢名单',
-            link: '/thanks-list'
-          }
-        ]
+        text: 'Window效率',
+        link: '/windows-recommended'
       },
       {
-        text: '下载',
-        link: '/versions'
+        text: '免费试用',
+        link: '/free-commercial'
+      },
+      {
+        text: '安卓App',
+        link: '/android-apps'
       },
       {
         text: '联系我们',
-        link: 'contact-us.md'
-      },
-      {
-        text: '赞助支持',
-        link: '/sponsor'
-      },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/GalensGan/UZonMail'
+        link: 'contact-us'
       }
     ]
   }),

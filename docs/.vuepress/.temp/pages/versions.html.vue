@@ -9,6 +9,10 @@
 <li>增加 docker 安装</li>
 </ol>
 <h3 id="下载地址" tabindex="-1"><a class="header-anchor" href="#下载地址"><span>下载地址</span></a></h3>
+<p><a href="https://obs.uamazing.cn:52443/public/files/soft/uzonmail-desktop-win-x64-0.10.0.0.zip" target="_blank" rel="noopener noreferrer">uzonmail-desktop-win-x64-0.10.0.0.zip</a></p>
+<p><a href="https://obs.uamazing.cn:52443/public/files/soft/uzonmail-service-win-x64-0.10.0.0.zip" target="_blank" rel="noopener noreferrer">uzonmail-service-win-x64-0.10.0.0.zip</a></p>
+<p><a href="https://obs.uamazing.cn:52443/public/files/soft/uzonmail-service-linux-x64-0.10.0.0.zip" target="_blank" rel="noopener noreferrer">uzonmail-service-linux-x64-0.10.0.0.zip</a></p>
+<p><a href="https://hub.docker.com/r/gmxgalens/uzon-mail/tags" target="_blank" rel="noopener noreferrer">docker</a></p>
 <h2 id="_0-9-5-1" tabindex="-1"><a class="header-anchor" href="#_0-9-5-1"><span>0.9.5.1</span></a></h2>
 <blockquote>
 <p>2024-09-14</p>

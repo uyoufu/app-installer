@@ -3,32 +3,23 @@ home: true
 title: 主页
 heroImage: /images/hero.svg
 actions:
-  - text: 开始使用
-    link: /get-started
+  - text: 随便逛逛
+    link: /history
     type: primary
 
-  - text: 软件下载
-    link: /versions
+  - text: APP精选
+    link: /recommended
     type: secondary
 
 features:
-  - title: 多发件人同时发件
-    details: 允许添加任意多个发件人进行同时发件, 突破单个发件数量限制, 提升发件效率。
+  - title: 品质佳软
+    details: 所有软件均经过严格筛选，拒绝流氓、后门
 
-  - title: 自定义模板
-    details: 模板采用 html 格式, 可视化编辑, 下限低，上限高。
+  - title: 拒绝选择
+    details: 同一种功能的软件，只保留评分最高的一款
 
-  - title: 无限变量
-    details: 可以在模板中引入任意变量，实现发件内容因人而异。
+  - title: 极简安装
+    details: 自带安装管家，可一键快速安装、免费使用
 
-  - title: 多线程并发
-    details: 采用多线程并发发送, 发件人越多，发件速度越快。
-
-  - title: 阅读跟踪
-    details: 支持跟踪邮件的阅读状态
-
-  - title: 自带爬虫, 外贸神器
-    details: 一次任务中允许添加任意多个收件箱。
-
-footer: Apache-2.0 license | Copyright © 2021-persent UZonMail
+footer: Copyright © 2021-persent WanderOpenSource
 ---

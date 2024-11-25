@@ -1,4 +1,4 @@
-# 判断是否有管理员权限
+﻿# 判断是否有管理员权限
 if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Host "请以管理员身份运行!"
     return

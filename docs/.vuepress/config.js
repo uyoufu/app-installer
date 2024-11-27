@@ -1,10 +1,18 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 // 配置参考:https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html#%E9%A6%96%E9%A1%B5
 // 图标通过 https://www.logosc.cn/favicon-generator 生成
 export default defineUserConfig({
+  plugins: [
+    shikiPlugin({
+      // 配置项
+      langs: ['ts', 'json', 'vue', 'md', 'bash', 'diff']
+    })
+  ],
+
   lang: 'zh-CN',
 
   title: '逛逛开源界',
@@ -21,15 +29,19 @@ export default defineUserConfig({
       },
       {
         text: 'Window效率',
-        link: '/windows-recommended'
+        link: '/windows-recommended/index'
       },
       {
         text: '免费试用',
-        link: '/free-commercial'
+        link: '/free-commercial/index'
       },
       {
         text: '安卓App',
-        link: '/android-apps'
+        link: '/android-recommended/index'
+      },
+      {
+        text: '历史推荐',
+        link: 'archives/index'
       },
       {
         text: '联系我们',

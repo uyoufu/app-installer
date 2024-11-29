@@ -13,7 +13,7 @@ actions:
 
 features:
   - title: 品质佳软
-    details: 所有软件均经过严格筛选，拒绝流氓、后门
+    details: 所有软件均经过严格筛选，拒绝流氓、后门软件
 
   - title: 拒绝选择
     details: 同一种功能的软件，只保留评分最高的一款

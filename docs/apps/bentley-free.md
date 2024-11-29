@@ -1,9 +1,11 @@
 ---
-title: Bentley-Free 软件安装教程
+title: 安装教程
 date: 2024-11-26
 ---
 
 本文介绍如何安装 Bentley-Free 达到免费使用 Bentley 系列软件的目的。
+
+推荐：⭐⭐⭐⭐⭐
 
 ## 操作文档
 
@@ -27,12 +29,15 @@ date: 2024-11-26
 
 ## 视频介绍
 
+若使用文档有困难，可以参考下面的操作视频
+
 <VidStack
-  src="https://files.vidstack.io/sprite-fight/720p.mp4"
-  poster="https://files.vidstack.io/sprite-fight/poster.webp"
+  src="https://oss.223434.xyz:2234/public/files/video/bentley-free.mp4"
+  poster="https://oss.223434.xyz:2234/public/files/images/bentley-free.png"
 />
 
 ## 其它说明
 
 1. 激活码可在闲鱼查找
+
 2. 经测试，每个激活码可激活两台电脑
